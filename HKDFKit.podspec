@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
   s.name         = "HKDFKit"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "HKDFKit provides Objective-C implementations of HKDF."
 
   s.description  = <<-DESC
                    HKDFKit additionally supports the TextSecure v2 protocol HKDF.
                    DESC
 
-  s.homepage     = "https://github.com/FredericJacobs/HKDFKit"
+  s.homepage     = "https://github.com/buildproto/HKDFKit"
   s.license      = {:type => 'GNU GENERAL PUBLIC LICENSE V2', :file => 'LICENSE'}
   s.author             = { "Frederic Jacobs" => "github@fredericjacobs.com" }
   s.social_media_url = "https://twitter.com/FredericJacobs"
 
-  s.source       = { :git => "https://github.com/FredericJacobs/HKDFKit.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/buildproto/HKDFKit.git", :tag => "#{s.version}" }
 
   s.source_files  = 'HKDFKit/HKDFKit/*{h,m}'
 
